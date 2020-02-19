@@ -1,4 +1,5 @@
 module.exports = {
+  location: 'Olympus Mons, Mars',
   name: 'John Doe',
   subtitle: 'Underwater Basket Weaver',
   phone: '123-123-1234',
