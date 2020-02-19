@@ -4,7 +4,7 @@ const ul = require('../ul');
 
 const formatRoles = resume =>
   resume.roles.map((role, i, roles) =>
-    div(`shadow-card role-entry ${roles.length - 1 === i ? 'last-one' : ''}`)(
+    div(`shadow-card role-entry`)(
       div('col contents')([
         div('row role-name-and-dates')([
           div('col role-name')(role.name),

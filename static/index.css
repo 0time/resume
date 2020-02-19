@@ -87,6 +87,22 @@ div.role-name {
   font-weight: bold;
 }
 
+/* Educations */
+div.education-divider {
+  display: block;
+  background: radial-gradient(ellipse at left, rgba(184, 184, 255, 1), rgba(184, 184, 255, 0.12)) !important;
+  height: 0.125em;
+}
+
+div.education-name-and-dates {
+  align-items: flex-end;
+}
+
+div.education-name {
+  font-size: large;
+  font-weight: bold;
+}
+
 div.last-one {
   margin-bottom: 0.25em;
 }
