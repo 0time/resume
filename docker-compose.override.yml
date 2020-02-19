@@ -1,0 +1,5 @@
+version: '3.5'
+services:
+  resume:
+    ports:
+      - 28090:3000

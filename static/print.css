@@ -1,0 +1,14 @@
+@media print {
+  div.resume {
+    box-shadow: none;
+    display: block;
+  }
+
+  div.block {
+    display: block;
+  }
+
+  a:visited {
+    color:blue;
+  }
+}

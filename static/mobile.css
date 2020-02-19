@@ -1,0 +1,10 @@
+@media (max-width: 720px) {
+  div.resume {
+    box-shadow: none;
+    margin: 0 0;
+  }
+
+  div.section {
+    margin: 4px 1px;
+  }
+}
