@@ -1,0 +1,10 @@
+version: '3.5'
+services:
+  resume:
+    command: 'yarn start'
+    image: keymux/docker-ubuntu-nvm-yarn:latest
+    restart: unless-stopped
+    stop_grace_period: 0s
+    volumes:
+      - .:/app
+    working_dir: /app
